@@ -15,4 +15,4 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
-          platforms: linux/amd64,linux/arm64,linux/arm,linux/arm/v7
+          platforms: linux/amd64,linux/arm64,linux/arm
